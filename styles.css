@@ -177,6 +177,21 @@ hr{
     color: var(--color-blue1);
 }
 
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.2rem;
+    margin-bottom: 1.2rem;
+}
+
+footer p{
+    font-size: 0.875rem;
+    margin-bottom: 0.1rem;
+    color: var(--color-blue1);
+}
+
 .grid1:hover{
     background-color: var(--color-blue2);
     cursor: pointer;
@@ -200,21 +215,6 @@ hr{
 .grid5:hover{
     background-color: var(--color-blue2);
     cursor: pointer;
-}
-
-footer{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-top: 1.2rem;
-    margin-bottom: 1.2rem;
-}
-
-footer p{
-    font-size: 0.875rem;
-    margin-bottom: 0.1rem;
-    color: var(--color-blue1);
 }
 
 @media screen and (min-width: 90rem) {
