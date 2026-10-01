@@ -59,6 +59,12 @@ hr{
     color: var(--color-blue2);
 }
 
+footer p{
+    font-size: 0.875rem;
+    margin-bottom: 0.1rem;
+    color: var(--color-blue1);
+}
+
 .stats{
     font-size: 2rem;
 }
@@ -186,33 +192,7 @@ footer{
     margin-bottom: 1.2rem;
 }
 
-footer p{
-    font-size: 0.875rem;
-    margin-bottom: 0.1rem;
-    color: var(--color-blue1);
-}
-
-.grid1:hover{
-    background-color: var(--color-blue2);
-    cursor: pointer;
-}
-
-.grid2:hover{
-    background-color: var(--color-blue2);
-    cursor: pointer;
-}
-
-.grid3:hover{
-    background-color: var(--color-blue2);
-    cursor: pointer;
-}
-
-.grid4:hover{
-    background-color: var(--color-blue2);
-    cursor: pointer;
-}
-
-.grid5:hover{
+.grid1:hover, .grid2:hover, .grid3:hover, .grid4:hover, .grid5:hover {
     background-color: var(--color-blue2);
     cursor: pointer;
 }
